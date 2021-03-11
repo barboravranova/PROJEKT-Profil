@@ -13,7 +13,57 @@ html { box-sizing: border-box; }
 	twitter    #1da1f2
 */
 
+* {
+	padding: 0;
+}
 
 body {
 	background-color: #bdc3c7;
+	color: #bdc3c7;
+	font-size: 16px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+	font-size: 28px;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+}
+
+.profil {
+	width: 300px;
+	position: relative;
+	background-color:  #31363b;
+}
+
+.foto {
+	width: 300px;
+}
+
+.logo {
+	border-radius: 50%;
+	background-color: #b92e81;
+	position: absolute;
+	top: 175px;
+	right: 20px;
+}
+
+.obsah {
+	padding: 20px;
+}
+
+.odkazy li {
+	text-align: center;
+	list-style-type: none;
+	padding: 8px;
+	border-top: 1px solid #3f464d;
+}
+
+.odkazy a {
+	display: inline-block;
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	color: #bdc3c7;
+	text-transform: uppercase;
+	width: 300px;
 }
